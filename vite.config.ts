@@ -3,12 +3,12 @@ import type { UserConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/.github/', // Changed from '/' to '/.github/'
+  base: '/', // Changed to root path for custom domain
   plugins: [react()],
   preview: {
     port: parseInt(process.env.PORT || '4173'),
     host: '0.0.0.0',
-    allowedHosts: ['binary-bridges-tech.github.io','localhost']
+    allowedHosts: ['binarybridges.dev', 'www.binarybridges.dev', 'localhost']
   },
   build: {
     outDir: 'dist',
