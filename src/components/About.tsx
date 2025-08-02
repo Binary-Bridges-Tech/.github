@@ -89,8 +89,8 @@ const About: React.FC = () => {
           {/* Stats Section */}
           <div className={`grid grid-cols-2 md:grid-cols-4 gap-6 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
             {[
-              { number: '500+', label: t('about.stats.projects') },
-              { number: '50+', label: t('about.stats.clients') },
+              { number: '5+', label: t('about.stats.projects') },
+              { number: '3+', label: t('about.stats.clients') },
               { number: '5+', label: t('about.stats.years') },
               { number: '24/7', label: t('about.stats.support') }
             ].map((stat, index) => (
