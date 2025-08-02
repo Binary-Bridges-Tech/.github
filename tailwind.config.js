@@ -35,6 +35,16 @@ export default {
       fontFamily: {
         'arabic': ['Cairo', 'Arial', 'sans-serif'],
         'english': ['Inter', 'Arial', 'sans-serif'],
+      },
+      boxShadow: {
+        '3xl': '0 35px 60px -12px rgba(0, 0, 0, 0.25)',
+      },
+      blur: {
+        '3xl': '64px',
+        '4xl': '96px',
+      },
+      animation: {
+        'pulse': 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
       }
     },
   },

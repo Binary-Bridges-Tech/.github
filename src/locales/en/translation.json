@@ -14,10 +14,9 @@
   },
   "about": {
     "title": "Who We Are",
-    "description": "We're a Palestinian software development company specializing in modern web solutions. Our team combines local expertise with global vision to build digital bridges between Palestine and the world.",
     "mission": {
       "title": "Our Mission",
-      "description": "To empower both Palestinian and global markets by delivering cutting-edge digital transformation through:",
+      "description": "To empower both Palestinian and global markets by delivering cutting-edge digital transformation.",
       "points": [
         "Custom Web Development",
         "Responsive Design",
@@ -30,12 +29,23 @@
         "100% Palestinian-developed solutions",
         "Focus on quality and innovation",
         "Cultural understanding with international standards"
-      ]
+      ],
+      "expertise": "Expert team with extensive experience",
+      "innovation": "Cutting-edge technology and innovative solutions",
+      "quality": "High-quality deliverables with attention to detail",
+      "support": "Dedicated support and maintenance services"
+    },
+    "stats": {
+      "projects": "Projects Completed",
+      "clients": "Happy Clients",
+      "years": "Years Experience",
+      "support": "Support"
     }
   },
   "services": {
     "title": "Our Services",
     "subtitle": "Comprehensive web solutions for your business",
+    "description": "We provide comprehensive digital solutions to help your business thrive in the modern world.",
     "webDevelopment": {
       "title": "Web Development",
       "description": "Custom web applications built with modern technologies and best practices."
@@ -47,22 +57,102 @@
     "consulting": {
       "title": "Digital Consulting",
       "description": "Strategic guidance for your digital transformation journey."
+    },
+    "web": {
+      "title": "Web Development",
+      "description": "Custom web applications built with modern technologies and best practices."
+    },
+    "mobile": {
+      "title": "Mobile Apps",
+      "description": "Native and cross-platform mobile applications for iOS and Android."
+    },
+    "analytics": {
+      "title": "Data Analytics",
+      "description": "Transform your data into actionable insights for better decision making."
+    },
+    "cloud": {
+      "title": "Cloud Solutions",
+      "description": "Scalable cloud infrastructure and deployment solutions."
+    },
+    "features": {
+      "quality": {
+        "title": "High Quality",
+        "description": "We deliver top-notch solutions with attention to detail."
+      },
+      "speed": {
+        "title": "Fast Delivery",
+        "description": "Quick turnaround times without compromising quality."
+      },
+      "support": {
+        "title": "24/7 Support",
+        "description": "Round-the-clock support for all your technical needs."
+      }
+    },
+    "additionalFeatures": {
+      "title": "Why Choose Our Services"
+    },
+    "cta": {
+      "title": "Ready to Start Your Project?",
+      "description": "Let's discuss how we can help bring your vision to life.",
+      "button": "Get Started Today"
     }
   },
   "contact": {
     "title": "Get In Touch",
     "subtitle": "Have a project in mind? Let's discuss how we can help!",
+    "description": "Have a project in mind? Let's discuss how we can help!",
     "form": {
+      "title": "Send us a Message",
       "name": "Name",
       "email": "Email",
+      "subject": "Subject",
       "message": "Message",
-      "send": "Send Message"
+      "send": "Send Message",
+      "submit": "Send Message",
+      "namePlaceholder": "Your full name",
+      "emailPlaceholder": "your.email@example.com",
+      "subjectPlaceholder": "What's this about?",
+      "messagePlaceholder": "Tell us about your project..."
     },
-    "whatsapp": "Contact us on WhatsApp"
+    "whatsapp": {
+      "title": "WhatsApp",
+      "description": "Prefer to chat? Reach out to us on WhatsApp for immediate assistance.",
+      "button": "Contact us on WhatsApp"
+    },
+    "info": {
+      "title": "Contact Information",
+      "address": {
+        "title": "Address",
+        "value": "Palestine"
+      },
+      "phone": {
+        "title": "Phone",
+        "value": "+970 598 592 423"
+      },
+      "email": {
+        "title": "Email",
+        "value": "info@binarybridges.dev"
+      }
+    }
   },
   "footer": {
     "description": "Bridging Palestine to the Digital World",
     "rights": "All rights reserved",
-    "madeWith": "Made in Palestine"
+    "madeWith": "Made in Palestine",
+    "copyright": "All rights reserved",
+    "quickLinks": {
+      "title": "Quick Links",
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "contact": "Contact"
+    },
+    "services": {
+      "title": "Services",
+      "web": "Web Development",
+      "mobile": "Mobile Apps",
+      "analytics": "Data Analytics", 
+      "cloud": "Cloud Solutions"
+    }
   }
 } 
