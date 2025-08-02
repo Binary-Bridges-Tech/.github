@@ -3,7 +3,7 @@ import type { UserConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/',
+  base: '/.github/',
   plugins: [react()],
   preview: {
     port: parseInt(process.env.PORT || '4173'),
