@@ -1,18 +1,20 @@
 import { defineConfig } from 'vite'
+import type { UserConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
 export default defineConfig({
+  base: '/',
   plugins: [react()],
-  base: process.env.NODE_ENV === 'production' ? '/binary-bridges-static/' : '/',
+  preview: {
+    port: parseInt(process.env.PORT || '4173'),
+    host: '0.0.0.0',
+    allowedHosts: ['binary-bridges-tech.github.io','localhost']
+  },
   build: {
-    outDir: 'dist',
-    assetsDir: 'assets',
-    sourcemap: false,
     rollupOptions: {
       output: {
-        manualChunks: undefined,
-      },
-    },
-  },
-})
+        manualChunks: undefined
+      }
+    }
+  }
+} as UserConfig)
