@@ -39,9 +39,6 @@ const About: React.FC = () => {
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-primary-600">
               {t('about.title')}
             </h2>
-            <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
-              {t('about.description')}
-            </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 mb-16">
