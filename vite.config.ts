@@ -3,7 +3,7 @@ import type { UserConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/',
+  base: '/.github/',
   plugins: [react()],
   preview: {
     port: parseInt(process.env.PORT || '4173'),
@@ -11,6 +11,7 @@ export default defineConfig({
     allowedHosts: ['binary-bridges-tech.github.io','localhost']
   },
   build: {
+    outDir: 'dist',
     rollupOptions: {
       output: {
         manualChunks: undefined
