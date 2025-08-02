@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Binary Bridges Tech",
+    "subtitle": "Bridging Palestine to the Digital World",
+    "description": "We're a Palestinian software development company specializing in modern web solutions. Our team combines local expertise with global vision to build digital bridges between Palestine and the world.",
+    "cta": "Get Started",
+    "learnMore": "Learn More"
+  },
+  "about": {
+    "title": "Who We Are",
+    "description": "We're a Palestinian software development company specializing in modern web solutions. Our team combines local expertise with global vision to build digital bridges between Palestine and the world.",
+    "mission": {
+      "title": "Our Mission",
+      "description": "To empower both Palestinian and global markets by delivering cutting-edge digital transformation through:",
+      "points": [
+        "Custom Web Development",
+        "Responsive Design",
+        "Scalable Web Applications"
+      ]
+    },
+    "whyChooseUs": {
+      "title": "Why Choose Us?",
+      "points": [
+        "100% Palestinian-developed solutions",
+        "Focus on quality and innovation",
+        "Cultural understanding with international standards"
+      ]
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive web solutions for your business",
+    "webDevelopment": {
+      "title": "Web Development",
+      "description": "Custom web applications built with modern technologies and best practices."
+    },
+    "webDesign": {
+      "title": "Web Design",
+      "description": "Beautiful, responsive designs that provide excellent user experience."
+    },
+    "consulting": {
+      "title": "Digital Consulting",
+      "description": "Strategic guidance for your digital transformation journey."
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Have a project in mind? Let's discuss how we can help!",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send Message"
+    },
+    "whatsapp": "Contact us on WhatsApp"
+  },
+  "footer": {
+    "description": "Bridging Palestine to the Digital World",
+    "rights": "All rights reserved",
+    "madeWith": "Made in Palestine"
+  }
+} 
