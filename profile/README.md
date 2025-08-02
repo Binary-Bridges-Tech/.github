@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/e6382d14-5efa-4508-b6c8-30fcd9af1dba" width="120" height="120" style="border-radius: 50%; object-fit: cover;">
+  <img src="https://github.com/user-attachments/assets/ac8062cd-6725-480f-9fa7-9ea35e431b03" width="120" height="120" style="border-radius: 50%; object-fit: cover;">
   
   # Binary-Bridges-Tech 
   
